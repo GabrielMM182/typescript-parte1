@@ -1,0 +1,17 @@
+{
+    // LER EM APP E GERAR EM DIST
+    "compilerOptions": {
+        // qual é o diretório que eu vou considerar depois de eu ler os seus arquivos "ts" onde que eu vou gravar os arquivos resultantes
+        "outDir": "dist/js",
+        // vai definir q vai utilizar ECMAScript6
+        "target": "ES6",
+        // não vai deixar gerar js quando tiver algum erro no ts
+        "noEmitOnError": true,
+        // não permite o uso de any automaticamente
+        "noImplicitAny": true
+    },
+    "include": [
+        //, inclui aí para mim a pasta "app", toda subpasta e qualquer arquivo, tudo que tiver dentro da "app", que for ".ts"
+        "app/**/*"
+    ]
+}
